@@ -50,7 +50,7 @@ class LoginPageState extends State<LoginPage> with SingleTickerProviderStateMixi
           Padding(
             padding: const EdgeInsets.all(40.0),
             child: new Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly ,
               children: <Widget>[
                 new FlutterLogo(
                     size: _iconAnimation.value * 100,
